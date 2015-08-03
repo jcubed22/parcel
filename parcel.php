@@ -50,6 +50,8 @@
 
     }
 
+    $parcel = new Parcel($_GET["height"], $_GET["length"], $_GET["width"], $_GET["weight"]);
+
     // $first_parcel = new Parcel("10in", "12in", "13in", "20lbs");
     //
     // $parcels = array($first_parcel);
@@ -61,6 +63,13 @@
     <title>Parcel Party!</title>
 </head>
 <body>
-    <h2><?php var_dump($parcels); ?></h2>
+    <h1>Your parcel:</h1>
+        <ul>
+            <?php
+                foreach ($parcel as $dimension) {
+                    
+                }
+            ?>
+        </ul>
 </body>
 </html>
