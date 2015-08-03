@@ -50,9 +50,9 @@
 
     }
 
-    $first_parcel = new Parcel("10in", "12in", "13in", "20lbs");
-
-    $parcels = array($first_parcel);
+    // $first_parcel = new Parcel("10in", "12in", "13in", "20lbs");
+    //
+    // $parcels = array($first_parcel);
 ?>
 
 <!DOCTYPE html>
